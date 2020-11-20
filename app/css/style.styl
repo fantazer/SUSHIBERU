@@ -200,7 +200,7 @@ body
 	border-radius 0 25px 0 60px
 	z-index 30
 	&:hover
-		background: $gray
+		background: #ffedcc
 	.icon
 		size 12px
 		margin-top: -5px
@@ -713,9 +713,9 @@ body
 		width: 100%
 	background: $dark
 	position: fixed
-	height: calc(100% - 85px) //Отступ хедер
+	height: calc(100% - 100px) //Отступ хедер
 	z-index 1250
-	top 85px
+	top 100px
 	left 0
 	width: 320px
 	transform translateX(-110%)
@@ -1853,6 +1853,8 @@ body
 
 
 .order__el-wrap
+	+below(640px)
+		margin-bottom: 20px
 	margin-bottom: 60px
 
 .order-form
