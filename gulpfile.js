@@ -387,14 +387,14 @@ gulp.task('build:ftp',function(){
 				'copy:js',
 				'copy:css',
 				'min:css',
-				'min:js',
+				//'min:js',
 				'screenshot',
 				'img',
 				'svg',
 				'make',
 				//'zip',
 				//'guide',
-				//'ftp'
+				'ftp'
 				//'template'
 		)
 });
