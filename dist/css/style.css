@@ -3284,6 +3284,7 @@ body {
   margin-left: auto;
 }
 .product-get .incr-btn__el {
+  min-width: 130px;
   padding: 12px 25px;
 }
 .js-item-parrent--active .product-price {
