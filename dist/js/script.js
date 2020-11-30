@@ -487,6 +487,14 @@ $(document).ready(function () {
 		$('.item-total').addClass('item-total--disable');
 	}
 
+	// clip text
+	$(".product__descr").dotdotdot({
+			ellipsis: "...",
+			wrap: "word",
+			height: 70,
+	});
+	// clip text === end
+
 	window.resetItemMethods = resetItemIngr;
 	//window.condition = {};
 	//window.condition.info = info;
