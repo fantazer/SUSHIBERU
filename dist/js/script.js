@@ -499,5 +499,40 @@ $(document).ready(function () {
 	//window.condition = {};
 	//window.condition.info = info;
 	
+	// toggle tags
+	$('.tag-el').click(function(){
+		$(this).toggleClass("tag-el--active");
+	});
+	// toggle tags === end
+
+	// toggle items type
+	$('.tag-el').click(function(){
+		var filterType = [];
+		var parent = $(this).closest(".content");
+		var emptyItem = parent.find(".filter-false");
+		parent.find('.tag-el--active').each(function(){
+			if($(this).data("condition")!="all") {
+				filterType.push($(this).data("condition").toString());
+			}
+		});
+		var strfilterType = filterType.sort().join(' ');
+		var filterItem = [];
+		parent.find(".product-el").each(function(){
+			var current = $(this);
+      current.addClass("hidden");
+      console.log(current.data("condition"));
+			filterItem = current.data("condition").toString().split(' ').sort().join(' ');
+			if(filterItem.indexOf(strfilterType)!=-1){
+				current.removeClass("hidden");
+			}
+		});
+		if(parent.find(".product-el:not(.hidden)").length<1){
+			emptyItem.removeClass("hidden");
+		}else{
+			emptyItem.addClass("hidden");
+		}
+	});
+	// toggle items type === end
+
 
 });
