@@ -10,18 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add clip text">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add filter catalog">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/catalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/block_html/_mixin.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_mixin.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/catalog.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/catalog.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/variable/_helper.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/_helper.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style-min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +42,7 @@
     <property name="SearchEverywhereHistoryKey" value="clone&#9;ACTION&#9;Git.Clone" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/app/bower/jquery/src/css/var/rmargin.js&#10;true&#10;E:/PROJECT/WORK/GIGANT/app/bower/slick-carousel/slick/slick-theme.css" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/bower" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -62,6 +57,17 @@
       <recent name="E:\PROJECT\WORK\PAOLO-NEW\app\img" />
       <recent name="E:\PROJECT\WORK\PAOLO-NEW" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -227,14 +233,8 @@
       <workItem from="1606206127489" duration="28000" />
       <workItem from="1606295053424" duration="3935000" />
       <workItem from="1606749201464" duration="1824000" />
-      <workItem from="1606916939171" duration="490000" />
-    </task>
-    <task id="LOCAL-00024" summary="fix hrefs">
-      <created>1561392840348</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1561392840349</updated>
+      <workItem from="1606916939171" duration="1221000" />
+      <workItem from="1607589140824" duration="2516000" />
     </task>
     <task id="LOCAL-00025" summary="fix transition">
       <created>1561394589226</created>
@@ -572,7 +572,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606749966978</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="add filter catalog">
+      <created>1606917559631</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1606917559632</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -613,7 +620,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="fix styles" />
     <MESSAGE value="deploy version" />
     <MESSAGE value="fix modals + cookie" />
     <MESSAGE value="fix cookier" />
@@ -638,71 +644,7 @@
     <MESSAGE value="change button txt" />
     <MESSAGE value="fix size btn" />
     <MESSAGE value="add clip text" />
-    <option name="LAST_COMMIT_MESSAGE" value="add clip text" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-1753" y="-40" key="CommitChangelistDialog2" timestamp="1606749962866">
-      <screen x="-2560" y="-193" width="2560" height="1400" />
-    </state>
-    <state x="-1753" y="-40" key="CommitChangelistDialog2/-2560.-193.2560.1400/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984@-2560.-193.2560.1400" timestamp="1606749962866" />
-    <state x="-1753" y="-103" key="CommitChangelistDialog2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1601556871855" />
-    <state x="-1753" y="-40" key="CommitChangelistDialog2/0.-1080.2560.1040/0.0.1920.1040/1920.52.1280.984/-2560.-193.2560.1400@-2560.-193.2560.1400" timestamp="1603818591231" />
-    <state x="-1753" y="-40" key="CommitChangelistDialog2/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984/-2560.-193.2560.1400@-2560.-193.2560.1400" timestamp="1605865113212" />
-    <state x="-1753" y="-103" key="CommitChangelistDialog2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601633096363" />
-    <state x="-2174" y="-68" key="DiffContextDialog" timestamp="1603818576228">
-      <screen x="-2560" y="-193" width="2560" height="1400" />
-    </state>
-    <state x="-2174" y="-68" key="DiffContextDialog/0.-1080.2560.1040/0.0.1920.1040/1920.52.1280.984/-2560.-193.2560.1400@-2560.-193.2560.1400" timestamp="1603818576228" />
-    <state x="-1478" y="321" key="FileChooserDialogImpl" timestamp="1600632836578">
-      <screen x="-2560" y="-256" width="2560" height="1400" />
-    </state>
-    <state x="-1478" y="321" key="FileChooserDialogImpl/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1600632836578" />
-    <state x="-1407" y="408" key="Github.ShareDialog" timestamp="1605810412073">
-      <screen x="-2560" y="-193" width="2560" height="1400" />
-    </state>
-    <state x="-1407" y="408" key="Github.ShareDialog/-2560.-193.2560.1400/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984@-2560.-193.2560.1400" timestamp="1605810412073" />
-    <state x="-1407" y="345" key="Github.ShareDialog/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600086595359" />
-    <state x="-1446" y="228" key="Github.UntrackedFilesDialog" timestamp="1605810430152">
-      <screen x="-2560" y="-193" width="2560" height="1400" />
-    </state>
-    <state x="-1446" y="228" key="Github.UntrackedFilesDialog/-2560.-193.2560.1400/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984@-2560.-193.2560.1400" timestamp="1605810430152" />
-    <state x="-1446" y="165" key="Github.UntrackedFilesDialog/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600086606901" />
-    <state x="-1779" y="150" key="SettingsEditor" timestamp="1605810398159">
-      <screen x="-2560" y="-193" width="2560" height="1400" />
-    </state>
-    <state x="-1779" y="150" key="SettingsEditor/-2560.-193.2560.1400/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984@-2560.-193.2560.1400" timestamp="1605810398159" />
-    <state x="-1779" y="87" key="SettingsEditor/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600086573487" />
-    <state x="-2560" y="-193" key="Vcs.Push.Dialog.v2" timestamp="1606750002156">
-      <screen x="-2560" y="-193" width="2560" height="1400" />
-    </state>
-    <state x="-2560" y="-193" key="Vcs.Push.Dialog.v2/-2560.-193.2560.1400/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984@-2560.-193.2560.1400" timestamp="1606750002156" />
-    <state x="-2115" y="45" key="Vcs.Push.Dialog.v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1601556879206" />
-    <state x="-2560" y="-193" key="Vcs.Push.Dialog.v2/0.-1080.2560.1040/0.0.1920.1040/1920.52.1280.984/-2560.-193.2560.1400@-2560.-193.2560.1400" timestamp="1603818594522" />
-    <state x="-2560" y="-193" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984/-2560.-193.2560.1400@-2560.-193.2560.1400" timestamp="1604408063867" />
-    <state x="-2560" y="-256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601633103666" />
-    <state x="-2468" y="-164" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601630424637">
-      <screen x="-2560" y="-256" width="2560" height="1400" />
-    </state>
-    <state x="-2468" y="-164" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601630424637" />
-    <state x="-1468" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601555020778">
-      <screen x="-2560" y="-256" width="2560" height="1400" />
-    </state>
-    <state x="-1468" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1601555020778" />
-    <state x="-1661" y="152" width="763" height="710" key="find.popup" timestamp="1606313291175">
-      <screen x="-2560" y="-193" width="2560" height="1400" />
-    </state>
-    <state x="-1661" y="152" width="763" height="710" key="find.popup/-2560.-193.2560.1400/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984@-2560.-193.2560.1400" timestamp="1606313291175" />
-    <state x="-1662" y="90" width="762" height="709" key="find.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600780822249" />
-    <state x="674" y="257" width="572" height="527" key="find.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@0.0.1920.1040" timestamp="1601978696432" />
-    <state x="-1661" y="152" width="763" height="710" key="find.popup/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984/-2560.-193.2560.1400@-2560.-193.2560.1400" timestamp="1604406727640" />
-    <state x="-1661" y="90" width="762" height="709" key="find.popup/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601373258698" />
-    <state x="-1617" y="122" width="672" height="678" key="search.everywhere.popup" timestamp="1606749400004">
-      <screen x="-2560" y="-193" width="2560" height="1400" />
-    </state>
-    <state x="-1617" y="122" width="672" height="678" key="search.everywhere.popup/-2560.-193.2560.1400/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984@-2560.-193.2560.1400" timestamp="1606749400004" />
-    <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup/-2560.-256.2560.1400/0.0.1920.1040/1920.166.1280.984@-2560.-256.2560.1400" timestamp="1600953735554" />
-    <state x="-1617" y="122" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984/-2560.-193.2560.1400@-2560.-193.2560.1400" timestamp="1604406551602" />
-    <state x="943" y="-846" width="672" height="504" key="search.everywhere.popup/0.0.1920.1040/0.-1080.2560.1040/1920.52.1280.984/-2560.-193.2560.1400@0.-1080.2560.1040" timestamp="1604408489632" />
-    <state x="-1617" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.166.1280.984/-2560.-256.2560.1400@-2560.-256.2560.1400" timestamp="1601374010994" />
+    <MESSAGE value="add filter catalog" />
+    <option name="LAST_COMMIT_MESSAGE" value="add filter catalog" />
   </component>
 </project>
