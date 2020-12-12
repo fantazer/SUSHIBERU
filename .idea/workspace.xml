@@ -10,12 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add filter catalog">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix iphone touch">
+      <change afterPath="$PROJECT_DIR$/app/img/bg-city.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/variable/_helper.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/_helper.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/modal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/module/modal/_modal.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/module/modal/_modal.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style-min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/modal.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +47,19 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/app/bower/jquery/src/css/var/rmargin.js&#10;true&#10;E:/PROJECT/WORK/GIGANT/app/bower/slick-carousel/slick/slick-theme.css" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/bower" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/img" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2018.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PROJECT\WORK\SUSHIBERU\app\img" />
       <recent name="E:\PROJECT\WORK\SUSHIBERU\app\bower" />
       <recent name="E:\PROJECT\WORK\SUSHIBERU" />
       <recent name="E:\PROJECT\WORK\SUSHIBERU\app" />
       <recent name="E:\PROJECT\WORK\PAOLO-NEW\app\img" />
-      <recent name="E:\PROJECT\WORK\PAOLO-NEW" />
     </key>
   </component>
   <component name="RunManager">
@@ -234,14 +238,8 @@
       <workItem from="1606295053424" duration="3935000" />
       <workItem from="1606749201464" duration="1824000" />
       <workItem from="1606916939171" duration="1221000" />
-      <workItem from="1607589140824" duration="2516000" />
-    </task>
-    <task id="LOCAL-00025" summary="fix transition">
-      <created>1561394589226</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1561394589226</updated>
+      <workItem from="1607589140824" duration="3122000" />
+      <workItem from="1607765377801" duration="1122000" />
     </task>
     <task id="LOCAL-00026" summary="add soc icon">
       <created>1561564237284</created>
@@ -579,7 +577,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606917559632</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="fix iphone touch">
+      <created>1607592602457</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1607592602458</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -620,7 +625,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="deploy version" />
     <MESSAGE value="fix modals + cookie" />
     <MESSAGE value="fix cookier" />
     <MESSAGE value="add soc-fl icon" />
@@ -645,6 +649,7 @@
     <MESSAGE value="fix size btn" />
     <MESSAGE value="add clip text" />
     <MESSAGE value="add filter catalog" />
-    <option name="LAST_COMMIT_MESSAGE" value="add filter catalog" />
+    <MESSAGE value="fix iphone touch" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix iphone touch" />
   </component>
 </project>
