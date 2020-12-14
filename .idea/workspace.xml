@@ -10,16 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix iphone touch">
-      <change afterPath="$PROJECT_DIR$/app/img/bg-city.svg" afterDir="false" />
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add bg-city modal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/modal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/module/modal/_modal.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/module/modal/_modal.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style-min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/modal.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,14 +236,8 @@
       <workItem from="1606749201464" duration="1824000" />
       <workItem from="1606916939171" duration="1221000" />
       <workItem from="1607589140824" duration="3122000" />
-      <workItem from="1607765377801" duration="1122000" />
-    </task>
-    <task id="LOCAL-00026" summary="add soc icon">
-      <created>1561564237284</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1561564237284</updated>
+      <workItem from="1607765377801" duration="1843000" />
+      <workItem from="1607942135502" duration="710000" />
     </task>
     <task id="LOCAL-00027" summary="fix input style">
       <created>1562781408424</created>
@@ -584,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607592602458</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="add bg-city modal">
+      <created>1607767151085</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1607767151086</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -625,7 +623,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="fix modals + cookie" />
     <MESSAGE value="fix cookier" />
     <MESSAGE value="add soc-fl icon" />
     <MESSAGE value="replace search icon + fix card size + add seoText" />
@@ -650,6 +647,7 @@
     <MESSAGE value="add clip text" />
     <MESSAGE value="add filter catalog" />
     <MESSAGE value="fix iphone touch" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix iphone touch" />
+    <MESSAGE value="add bg-city modal" />
+    <option name="LAST_COMMIT_MESSAGE" value="add bg-city modal" />
   </component>
 </project>

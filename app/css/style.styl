@@ -2822,16 +2822,6 @@ l
 // location list
 .location-list-wrap
 	position relative
-	+above(1024px)
-		&:before
-			z-index 10
-			content ""
-			position absolute
-			bottom -15px
-			left 0
-			background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
-			width: 100%
-			height: 90px
 
 .location-list
 	+below(768px)

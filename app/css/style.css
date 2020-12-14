@@ -6275,18 +6275,6 @@ l,
 .location-list-wrap {
   position: relative;
 }
-@media only screen and (min-width: 1024px) {
-  .location-list-wrap:before {
-    z-index: 10;
-    content: "";
-    position: absolute;
-    bottom: -15px;
-    left: 0;
-    background-image: linear-gradient(180deg, rgba(255,255,255,0) 0%, #fff 100%);
-    width: 100%;
-    height: 90px;
-  }
-}
 .location-list {
   max-height: 300px;
   position: relative;
