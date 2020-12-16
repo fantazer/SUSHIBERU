@@ -10,13 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add bg-city modal">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix modal city">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style-min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,14 +239,8 @@
       <workItem from="1606916939171" duration="1221000" />
       <workItem from="1607589140824" duration="3122000" />
       <workItem from="1607765377801" duration="1843000" />
-      <workItem from="1607942135502" duration="710000" />
-    </task>
-    <task id="LOCAL-00027" summary="fix input style">
-      <created>1562781408424</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1562781408424</updated>
+      <workItem from="1607942135502" duration="1333000" />
+      <workItem from="1608114795648" duration="2297000" />
     </task>
     <task id="LOCAL-00028" summary="add full page template">
       <created>1563526589141</created>
@@ -582,7 +578,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607767151086</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="fix modal city">
+      <created>1607942859782</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1607942859782</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -623,7 +626,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="fix cookier" />
     <MESSAGE value="add soc-fl icon" />
     <MESSAGE value="replace search icon + fix card size + add seoText" />
     <MESSAGE value="add head line + drop menu" />
@@ -648,6 +650,7 @@
     <MESSAGE value="add filter catalog" />
     <MESSAGE value="fix iphone touch" />
     <MESSAGE value="add bg-city modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="add bg-city modal" />
+    <MESSAGE value="fix modal city" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix modal city" />
   </component>
 </project>

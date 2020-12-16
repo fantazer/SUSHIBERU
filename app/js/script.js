@@ -1,5 +1,35 @@
 $(document).ready(function () {
 
+	//main slider
+	$('.main-slider').slick({
+		slidesToShow: 1,
+		speed: 500,
+		//autoplay: true,
+		arrows:false,
+		dots:true,
+		//fade: true
+		//autoplaySpeed: 8000, time between
+		customPaging : function(slider, i) {
+							return '<span class="dot"></span>';
+			}
+	});
+	//main slider === end
+
+	// sale slider
+	$('.sale-slider').slick({
+		slidesToShow: 1,
+		speed: 500,
+		//autoplay: true,
+		arrows:false,
+		dots:true,
+		//fade: true
+		//autoplaySpeed: 8000, time between
+		customPaging : function(slider, i) {
+							return '<span class="dot"></span>';
+			}
+	});
+	// sale slider === end
+
 	//modals
 	var modalState = {
 		"isModalShow": false, //state show modal
@@ -243,35 +273,7 @@ $(document).ready(function () {
 	// Toggle search === end
 
 
-	//main slider
-	$('.main-slider').slick({
-		slidesToShow: 1,
-		speed: 500,
-		//autoplay: true,
-		arrows:false,
-		dots:true,
-		//fade: true
-		//autoplaySpeed: 8000, time between
-		customPaging : function(slider, i) {
-							return '<span class="dot"></span>';
-			}
-	});
-	//main slider === end
 
-	// sale slider
-	$('.sale-slider').slick({
-		slidesToShow: 1,
-		speed: 500,
-		//autoplay: true,
-		arrows:false,
-		dots:true,
-		//fade: true
-		//autoplaySpeed: 8000, time between
-		customPaging : function(slider, i) {
-							return '<span class="dot"></span>';
-			}
-	});
-	// sale slider === end
 
 
 	// toggle size items

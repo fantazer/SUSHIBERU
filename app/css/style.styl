@@ -3225,3 +3225,9 @@ l
 	padding: 20% 10%
 	bg-full()
 	border-radius 0 0 25px 25px
+
+.main-slider .main-slider__el-wrap:not(:first-child)
+	visibility: hidden
+
+.main-slider.slick-initialized .main-slider__el-wrap:not(:first-child)
+	visibility: visible
