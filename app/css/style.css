@@ -2249,7 +2249,7 @@ body {
     margin-right: auto;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 640px) {
   .logo {
     max-width: 40px;
   }
@@ -2751,10 +2751,10 @@ body {
 .slide-menu {
   background: #2b2c34;
   position: fixed;
-  height: -webkit-calc(100% - 100px);
-  height: calc(100% - 100px);
+  height: -webkit-calc(100% - 90px);
+  height: calc(100% - 90px);
   z-index: 1250;
-  top: 100px;
+  top: 90px;
   left: 0;
   width: 320px;
   -webkit-transform: translateX(-110%);
@@ -2773,6 +2773,9 @@ body {
 @media only screen and (max-width: 480px) {
   .slide-menu {
     width: 100%;
+    height: -webkit-calc(100% - 100px);
+    height: calc(100% - 100px);
+    top: 100px;
   }
 }
 .slide-menu .header-location {

@@ -445,7 +445,7 @@ body
 		width: 200px
 	+below(1024px)
 		margin-right auto
-	+below(768px)
+	+below(640px)
 		max-width 40px
 	margin-right: 3%
 	max-width 60px
@@ -711,11 +711,13 @@ body
 		display: none !important
 	+below(480px)
 		width: 100%
+		height: calc(100% - 100px) //Отступ хедер
+		top 100px
 	background: $dark
 	position: fixed
-	height: calc(100% - 100px) //Отступ хедер
+	height: calc(100% - 90px) //Отступ хедер
 	z-index 1250
-	top 100px
+	top 90px
 	left 0
 	width: 320px
 	transform translateX(-110%)

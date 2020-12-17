@@ -80,7 +80,8 @@ $(document).ready(function () {
 		});
 		var modalHeightCont = $(window).height();
 		$('.modal-filter').height(modalHeightCont);
-
+		$('.head-toggle').removeClass('head-toggle--open');
+		$('.slide-menu').removeClass('slide-menu--open');
 	};
 
 	$('.modal-get').click(function () {
