@@ -5670,21 +5670,14 @@ body {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
-.history-card__info {
-  margin-right: 5%;
-}
-@media only screen and (max-width: 640px) {
-  .history-card__info {
-    width: 100%;
-  }
-}
 .history-card__date {
   margin-bottom: 5px;
 }
 @media only screen and (max-width: 640px) {
   .history-card__date {
-    display: none;
-    margin-bottom: 10px;
+    margin: 0;
+    font-size: 12px;
+    white-space: nowrap;
   }
 }
 .history-card__numb {
@@ -5696,6 +5689,13 @@ body {
   border: 2px solid #b4b4b4;
   border-radius: 10px;
   white-space: nowrap;
+}
+@media only screen and (max-width: 640px) {
+  .history-card__state {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
 }
 .history-card__state--true {
   border: 1px solid #faa000;
@@ -5743,6 +5743,12 @@ body {
       -ms-flex-align: center;
           align-items: center;
   width: 40%;
+}
+@media only screen and (max-width: 640px) {
+  .history-card__info {
+    width: 100%;
+    padding-top: 40px;
+  }
 }
 .history-card__condition {
   display: -webkit-box;
