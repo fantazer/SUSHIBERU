@@ -523,8 +523,8 @@ $(document).ready(function () {
 		parent.find(".product-el").each(function(){
 			var current = $(this);
       current.addClass("hidden");
-      console.log(current.data("condition"));
-			filterItem = current.data("condition").toString().split(' ').sort().join(' ');
+      console.log('condition',current.data("condition"));
+			filterItem = current.data("condition").toString().split(' ').sort();
 			if(filterItem.indexOf(strfilterType)!=-1){
 				current.removeClass("hidden");
 			}

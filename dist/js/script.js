@@ -519,15 +519,17 @@ $(document).ready(function () {
 			}
 		});
 		var strfilterType = filterType.sort().join(' ');
+		//console.log(strfilterType);
 		var filterItem = [];
 		parent.find(".product-el").each(function(){
 			var current = $(this);
       current.addClass("hidden");
-      console.log(current.data("condition"));
-			filterItem = current.data("condition").toString().split(' ').sort().join(' ');
+      console.log('condition',current.data("condition"));
+			filterItem = current.data("condition").toString().split(' ').sort();
 			if(filterItem.indexOf(strfilterType)!=-1){
 				current.removeClass("hidden");
 			}
+			//console.log(filterItem);
 		});
 		if(parent.find(".product-el:not(.hidden)").length<1){
 			emptyItem.removeClass("hidden");
