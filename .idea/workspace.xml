@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix slide menu modal">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix item sort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/catalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/html/catalog.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/catalog.pug" afterDir="false" />
@@ -251,14 +251,7 @@
       <workItem from="1608623920261" duration="1230000" />
       <workItem from="1608721069038" duration="1276000" />
       <workItem from="1611131915761" duration="2148000" />
-      <workItem from="1615549042051" duration="545000" />
-    </task>
-    <task id="LOCAL-00031" summary="fix btn + animateShow function">
-      <created>1572863739175</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1572863739175</updated>
+      <workItem from="1615549042051" duration="3950000" />
     </task>
     <task id="LOCAL-00032" summary="add input style">
       <created>1574802836782</created>
@@ -596,7 +589,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611134820608</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="fix item sort">
+      <created>1615549795647</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1615549795647</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -637,7 +637,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="add head line + drop menu" />
     <MESSAGE value="fix logo + add menu item" />
     <MESSAGE value="fix search + title items + catalog list extends" />
     <MESSAGE value="fix cost size" />
@@ -662,6 +661,7 @@
     <MESSAGE value="fix modal city" />
     <MESSAGE value="fix slider upload" />
     <MESSAGE value="fix slide menu modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix slide menu modal" />
+    <MESSAGE value="fix item sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix item sort" />
   </component>
 </project>
